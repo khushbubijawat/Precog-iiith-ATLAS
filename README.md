@@ -1,3 +1,4 @@
+
 # Atlas Graphs Task (Precog Recruitment)
 
 Project skeleton to build and analyze Atlas-style directed graphs for countries and cities, run community detection, and prototype link prediction (node2vec + simple GNN). All code is pure Python; heavy lifting is deferred to runtime scripts so you can re-run easily in Colab/Kaggle or locally.
@@ -56,3 +57,6 @@ Note: node2vec baseline needs `gensim` + `scikit-learn` (included in requirement
 - Add your own commentary/insights to the report, plug in plots/metrics.
 - Tweak features for link prediction (e.g., first/last letter one-hot, length, country/city flag).
 - Export visuals for presentation (network diagrams, degree histograms, centrality rankings).
+=======
+# Precog-iiith-ATLAS
+
