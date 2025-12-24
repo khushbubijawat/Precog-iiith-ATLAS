@@ -1,0 +1,12 @@
+networkx>=3.2
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+unidecode>=1.3
+numpy>=1.24
+scikit-learn>=1.3
+gensim>=4.3
+requests>=2.31
+# Optional for link prediction baselines
+torch>=2.1; platform_system!="Windows" or platform_machine!="arm64"
+torch_geometric; extra == "gnn"  # install manually per PyG instructions if needed
